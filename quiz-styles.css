@@ -1,0 +1,6 @@
+
+/* Daily quiz result states */
+.correct-choice{border-color:#779b59!important;background:#edf2d9!important}
+.wrong-choice{border-color:#c87582!important;background:#fbecef!important}
+.quiz-explanation{margin:8px 0 0;padding:8px 10px;border-left:3px solid #779b59;border-radius:6px;color:#526e40;font-size:13px}
+button:disabled{opacity:.58;cursor:not-allowed}
