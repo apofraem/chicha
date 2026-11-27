@@ -15,68 +15,25 @@
   <div class="page-wipe" id="pageWipe" aria-hidden="true"><span>✦</span></div>
   <header class="topbar">
     <a class="brand" href="#beranda" aria-label="Klas Kayoko, beranda"><span class="brand-mark">K</span><span>Klas <b>Kayoko</b><small>RUANG BELAJAR CERIA</small></span></a>
-    <nav class="main-nav" aria-label="Navigasi utama">
-      <button class="nav-link active" data-page="beranda">Beranda</button>
-      <button class="nav-link" data-page="materi">Materi</button>
-      <button class="nav-link" data-page="galeri">Galeri</button>
-    </nav>
-    <button class="profile-shortcut" data-page="profil"><span class="mini-avatar" id="navAvatar">🌸</span><span id="navName">Profilku</span><span class="chevron">⌄</span></button>
-    <button class="mobile-menu" id="mobileMenu" aria-label="Buka navigasi">☰</button>
+    <nav class="main-nav" aria-label="Navigasi utama"><button class="nav-link active" data-page="beranda">Beranda</button><button class="nav-link" data-page="materi">Materi</button><button class="nav-link" data-page="galeri">Galeri</button></nav>
+    <div class="header-actions"><button class="theme-toggle" id="themeToggle" type="button" aria-label="Aktifkan tema hitam putih"><span id="themeIcon">◐</span><span id="themeLabel">Tema</span></button><button class="profile-shortcut" data-page="profil"><span class="mini-avatar" id="navAvatar">🌸</span><span id="navName">Profilku</span><span class="chevron">⌄</span></button><button class="mobile-menu" id="mobileMenu" aria-label="Buka navigasi">☰</button></div>
   </header>
-
   <main>
     <section class="page active" id="page-beranda">
-      <div class="hero page-shell">
-        <div class="hero-copy">
-          <div class="eyebrow"><span class="sparkle">✦</span> YOUR LITTLE SCHOOL CORNER</div>
-          <h1>Belajar seru,<br />jadi <span>bintang!</span></h1>
-          <p>Hai, teman belajar! Yuk jelajahi ilmu baru, kumpulkan ide keren, dan tumbuh jadi versi terbaik dirimu.</p>
-          <div class="hero-actions"><button class="button primary" data-page="materi">Mulai belajar <span>→</span></button><button class="button text-button" data-page="galeri">Lihat galeri <span>↗</span></button></div>
-          <div class="hero-note"><span class="note-icon">✎</span><span><b>Belajar sesuai kelasmu</b><small>SD · SMP · SMA, semua ada di sini!</small></span></div>
-        </div>
-        <div class="hero-art" aria-label="Ilustrasi suasana sekolah manga">
-          <div class="sunburst"></div><span class="float-star star-one">✦</span><span class="float-star star-two">✧</span><span class="float-star star-three">✦</span>
-          <div class="art-caption">LET'S STUDY! <span>♡</span></div>
-          <div class="student"><div class="hair"></div><div class="face"><i class="eye left"></i><i class="eye right"></i><i class="blush left"></i><i class="blush right"></i><i class="smile"></i></div><div class="neck"></div><div class="uniform"><span>✿</span></div><div class="arm"></div></div>
-          <div class="book-stack"><i></i><i></i><i></i><span>学</span></div><div class="speech-bubble">がんばろう!<small>Semangat ya!</small></div>
-          <div class="art-doodle">✎</div>
-        </div>
+      <div class="hero page-shell"><div class="hero-copy"><div class="eyebrow"><span class="sparkle">✦</span> YOUR LITTLE SCHOOL CORNER</div><h1>Belajar seru,<br />jadi <span>bintang!</span></h1><p>Hai, teman belajar! Yuk jelajahi ilmu baru, kumpulkan ide keren, dan tumbuh jadi versi terbaik dirimu.</p><div class="hero-actions"><button class="button primary" data-page="materi">Mulai belajar <span>→</span></button><button class="button text-button" data-page="galeri">Lihat galeri <span>↗</span></button></div><div class="hero-note"><span class="note-icon">✎</span><span><b>Belajar sesuai kelasmu</b><small>SD · SMP · SMA, semua ada di sini!</small></span></div></div>
+        <div class="hero-art" aria-label="Ilustrasi suasana sekolah manga"><div class="sunburst"></div><span class="float-star star-one">✦</span><span class="float-star star-two">✧</span><span class="float-star star-three">✦</span><div class="art-caption">LET'S STUDY! <span>♡</span></div><div class="student"><div class="hair"></div><div class="face"><i class="eye left"></i><i class="eye right"></i><i class="blush left"></i><i class="blush right"></i><i class="smile"></i></div><div class="neck"></div><div class="uniform"><span>✿</span></div><div class="arm"></div></div><div class="book-stack"><i></i><i></i><i></i><span>学</span></div><div class="speech-bubble">がんばろう!<small>Semangat ya!</small></div><div class="art-doodle">✎</div></div>
       </div>
       <div class="page-shell welcome-strip"><div class="welcome-icon">🌷</div><div><b>Selamat datang di Klas Kayoko!</b><p>Tempat belajar yang hangat, penuh warna, dan selalu mendukung langkahmu.</p></div><span class="strip-doodle">♡</span></div>
-      <section class="page-shell section-block"><div class="section-heading"><div><span class="eyebrow">PILIH PETUALANGANMU</span><h2>Belajar di setiap jenjang</h2></div><button class="link-arrow" data-page="materi">Semua materi <span>→</span></button></div>
-        <div class="level-grid">
-          <button class="level-card level-sd" data-level="SD"><span class="level-icon">🎒</span><span class="level-meta">KELAS 1—6</span><b>Sekolah Dasar</b><small>Mulai dari rasa ingin tahu!</small><span class="card-arrow">↗</span></button>
-          <button class="level-card level-smp" data-level="SMP"><span class="level-icon">🧪</span><span class="level-meta">KELAS 7—9</span><b>Sekolah Menengah Pertama</b><small>Temukan hal baru setiap hari.</small><span class="card-arrow">↗</span></button>
-          <button class="level-card level-sma" data-level="SMA"><span class="level-icon">🎓</span><span class="level-meta">KELAS 10—12</span><b>Sekolah Menengah Atas</b><small>Siapkan dirimu untuk masa depan.</small><span class="card-arrow">↗</span></button>
-        </div>
-      </section>
+      <section class="page-shell section-block"><div class="section-heading"><div><span class="eyebrow">PILIH PETUALANGANMU</span><h2>Belajar di setiap jenjang</h2></div><button class="link-arrow" data-page="materi">Semua materi <span>→</span></button></div><div class="level-grid"><button class="level-card level-sd" data-level="SD"><span class="level-icon">🎒</span><span class="level-meta">KELAS 1—6</span><b>Sekolah Dasar</b><small>Mulai dari rasa ingin tahu!</small><span class="card-arrow">↗</span></button><button class="level-card level-smp" data-level="SMP"><span class="level-icon">🧪</span><span class="level-meta">KELAS 7—9</span><b>Sekolah Menengah Pertama</b><small>Temukan hal baru setiap hari.</small><span class="card-arrow">↗</span></button><button class="level-card level-sma" data-level="SMA"><span class="level-icon">🎓</span><span class="level-meta">KELAS 10—12</span><b>Sekolah Menengah Atas</b><small>Siapkan dirimu untuk masa depan.</small><span class="card-arrow">↗</span></button></div></section>
       <section class="page-shell quote-card"><span class="quote-mark">“</span><p>Setiap ahli dulunya adalah pemula.<br /><b>Terus belajar, kamu pasti bisa!</b></p><span class="quote-stamp">KAYOKO<br />CLUB ✿</span></section>
     </section>
-
-    <section class="page page-shell" id="page-materi">
-      <div class="subpage-heading"><div><span class="eyebrow">PETA BELAJARMU</span><h1>Materi <span>pilihan</span></h1><p>Pilih jenjang dan kelas, lalu temukan topik yang ingin kamu pelajari.</p></div><div class="heading-doodle">📚</div></div>
-      <div class="filter-panel"><div class="filter-label">JENJANG</div><div class="filter-tabs" role="tablist"><button class="filter-tab selected" data-filter-level="SD">SD</button><button class="filter-tab" data-filter-level="SMP">SMP</button><button class="filter-tab" data-filter-level="SMA">SMA</button></div><label class="grade-select-wrap">Pilih kelas <select id="gradeSelect" aria-label="Pilih kelas"></select></label></div>
-      <div class="lesson-intro"><span id="gradeEmoji">🌱</span><div><b id="gradeTitle">Kelas 1 SD</b><small>Materi ringkas untuk menemani langkah belajarmu.</small></div><span class="lesson-count" id="lessonCount">0 topik</span></div>
-      <div class="lesson-grid" id="lessonGrid"></div>
-      <div class="study-tip"><span>💡</span><p><b>Tips Kayoko:</b> Belajar sedikit demi sedikit setiap hari lebih baik daripada terburu-buru. Kamu hebat!</p></div>
-    </section>
-
-    <section class="page page-shell" id="page-galeri">
-      <div class="subpage-heading"><div><span class="eyebrow">MOMEN-MOMEN KECIL</span><h1>Galeri <span>ceria</span></h1><p>Simpan kenangan belajar, karya, dan hal-hal yang bikin kamu tersenyum.</p></div><div class="heading-doodle">📸</div></div>
-      <div class="gallery-toolbar"><div><b>Papan inspirasiku</b><small id="galleryCount">Koleksi Kayoko</small></div><label class="button primary upload-button">＋ Tambah foto<input id="photoInput" type="file" accept="image/*" multiple hidden /></label></div>
-      <div class="gallery-grid" id="galleryGrid"></div>
-      <div class="empty-gallery" id="emptyGallery"><div>🌼</div><b>Galeri kamu masih kosong</b><p>Tambahkan foto karya atau momen belajar favoritmu!</p><label class="button outline upload-button">Pilih foto<input type="file" accept="image/*" multiple hidden /></label></div>
-    </section>
-
-    <section class="page page-shell" id="page-profil">
-      <div class="subpage-heading"><div><span class="eyebrow">INI CERITAKU</span><h1>Profil <span>teman</span></h1><p>Kenalan lebih dekat dengan dirimu. Profil ini bisa kamu ubah kapan saja.</p></div><div class="heading-doodle">🌸</div></div>
-      <div class="profile-layout"><aside class="profile-card"><div class="profile-cover"><span>✦ KAYOKO STUDY CLUB ✦</span></div><div class="profile-avatar-wrap"><div class="profile-avatar" id="profileAvatar">🌸</div><label class="avatar-edit" title="Ganti foto profil">✎<input id="avatarInput" type="file" accept="image/*" hidden /></label></div><h2 id="displayName">Teman Kayoko</h2><p id="displayGrade">Sahabat belajar</p><div class="profile-stats"><div><b id="statLessons">12</b><small>kelas tersedia</small></div><div><b>♡</b><small>terus semangat</small></div></div><div class="profile-card-note">“Belajar adalah petualangan!”</div></aside>
-        <form class="profile-form" id="profileForm"><div class="form-heading"><div><span class="eyebrow">KARTU PELAJAR</span><h2>Edit profilku</h2></div><span class="edit-pencil">✎</span></div><label>Nama panggilan<input id="nameInput" type="text" maxlength="32" placeholder="Contoh: Aiko" /></label><label>Jenjang sekolah<select id="profileLevel"><option value="SD">SD</option><option value="SMP">SMP</option><option value="SMA">SMA</option></select></label><label>Kelas<select id="profileGrade"></select></label><label>Catatan kecil<textarea id="bioInput" rows="3" maxlength="120" placeholder="Hal yang ingin kamu capai tahun ini..."></textarea></label><div class="form-actions"><button type="submit" class="button primary">Simpan perubahan <span>✓</span></button><span class="save-message" id="saveMessage" aria-live="polite"></span></div></form>
-      </div>
-    </section>
+    <section class="page page-shell" id="page-materi"><div class="subpage-heading"><div><span class="eyebrow">PETA BELAJARMU</span><h1>Materi <span>pilihan</span></h1><p>Pilih jenjang dan kelas, lalu temukan topik yang ingin kamu pelajari.</p></div><div class="heading-doodle">📚</div></div><div class="filter-panel"><div class="filter-label">JENJANG</div><div class="filter-tabs" role="tablist"><button class="filter-tab selected" data-filter-level="SD">SD</button><button class="filter-tab" data-filter-level="SMP">SMP</button><button class="filter-tab" data-filter-level="SMA">SMA</button></div><label class="grade-select-wrap">Pilih kelas <select id="gradeSelect" aria-label="Pilih kelas"></select></label></div><div class="lesson-intro"><span id="gradeEmoji">🌱</span><div><b id="gradeTitle">Kelas 1 SD</b><small>Materi ringkas untuk menemani langkah belajarmu.</small></div><span class="lesson-count" id="lessonCount">0 topik</span></div><div class="lesson-grid" id="lessonGrid"></div><div class="study-tip"><span>💡</span><p><b>Tips Kayoko:</b> Belajar sedikit demi sedikit setiap hari lebih baik daripada terburu-buru. Kamu hebat!</p></div></section>
+    <section class="page page-shell" id="page-galeri"><div class="subpage-heading"><div><span class="eyebrow">MOMEN-MOMEN KECIL</span><h1>Galeri <span>ceria</span></h1><p>Simpan kenangan belajar, karya, dan hal-hal yang bikin kamu tersenyum.</p></div><div class="heading-doodle">📸</div></div><div class="gallery-toolbar"><div><b>Papan inspirasiku</b><small id="galleryCount">Koleksi Kayoko</small></div><label class="button primary upload-button">＋ Tambah foto<input id="photoInput" type="file" accept="image/*" multiple hidden /></label></div><div class="gallery-grid" id="galleryGrid"></div><div class="empty-gallery" id="emptyGallery"><div>🌼</div><b>Galeri kamu masih kosong</b><p>Tambahkan foto karya atau momen belajar favoritmu!</p><label class="button outline upload-button">Pilih foto<input type="file" accept="image/*" multiple hidden /></label></div></section>
+    <section class="page page-shell" id="page-profil"><div class="subpage-heading"><div><span class="eyebrow">INI CERITAKU</span><h1>Profil <span>teman</span></h1><p>Kenalan lebih dekat dengan dirimu. Profil ini bisa kamu ubah kapan saja.</p></div><div class="heading-doodle">🌸</div></div><div class="profile-layout"><aside class="profile-card"><div class="profile-cover"><span>✦ KAYOKO STUDY CLUB ✦</span></div><div class="profile-avatar-wrap"><div class="profile-avatar" id="profileAvatar">🌸</div><label class="avatar-edit" title="Ganti foto profil">✎<input id="avatarInput" type="file" accept="image/*" hidden /></label></div><h2 id="displayName">Teman Kayoko</h2><p id="displayGrade">Sahabat belajar</p><div class="profile-stats"><div><b id="statLessons">12</b><small>kelas tersedia</small></div><div><b>♡</b><small>terus semangat</small></div></div><div class="profile-card-note">“Belajar adalah petualangan!”</div></aside><form class="profile-form" id="profileForm"><div class="form-heading"><div><span class="eyebrow">KARTU PELAJAR</span><h2>Edit profilku</h2></div><span class="edit-pencil">✎</span></div><label>Nama panggilan<input id="nameInput" type="text" maxlength="32" placeholder="Contoh: Aiko" /></label><label>Jenjang sekolah<select id="profileLevel"><option value="SD">SD</option><option value="SMP">SMP</option><option value="SMA">SMA</option></select></label><label>Kelas<select id="profileGrade"></select></label><label>Catatan kecil<textarea id="bioInput" rows="3" maxlength="120" placeholder="Hal yang ingin kamu capai tahun ini..."></textarea></label><div class="form-actions"><button type="submit" class="button primary">Simpan perubahan <span>✓</span></button><span class="save-message" id="saveMessage" aria-live="polite"></span></div></form></div></section>
   </main>
   <footer class="footer"><a class="brand footer-brand" href="#beranda"><span class="brand-mark">K</span><span>Klas <b>Kayoko</b><small>RUANG BELAJAR CERIA</small></span></a><p>Dibuat dengan <span>♡</span> untuk teman-teman yang suka belajar.</p><span class="footer-year">© 2025 Klas Kayoko</span></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="app.js"></script>
+  <script src="enhancements.js"></script>
 </body>
 </html>
